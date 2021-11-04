@@ -3,12 +3,12 @@
     --secondary-color: lightpink;
     --large: 200px;
     --small: 10px;
-    --timing: 8s;
+    --timing: 2.4s;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 300px;
+    height: 300px;
     display: grid;
     overflow: hidden;
     justify-content: center;
@@ -27,14 +27,17 @@ section {
     height: auto;
 }
 
-div{
+.bubble {
     background-color: var(--primary-color);
     width: var(--small);
     height: var(--small);
     border-radius: calc( var(--small) / 2);
     display: inline-block;
-    animation: breath var(--timing) ease infinite none running
+    animation: breath var(--timing) ease infinite none running;
+    margin: auto;
 }
+
+
 
 input {
     margin: 20px 0;

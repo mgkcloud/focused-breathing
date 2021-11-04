@@ -1,0 +1,23 @@
+{
+  "name": "focused-breathing",
+  "version": "1.0.0",
+  "description": "1. Breath in through the nose for 2 seconds 1. Hold for 2 seconds 1. Release through the mouth for 4 seconds 1. Repeat",
+  "main": "js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrabill/focused-breathing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scrabill/focused-breathing/issues"
+  },
+  "homepage": "https://github.com/scrabill/focused-breathing#readme",
+  "dependencies": {
+    "electron": "^15.3.0"
+  }
+}
